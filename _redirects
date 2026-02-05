@@ -1,0 +1,5 @@
+# Redirect www to apex
+https://www.debitlens.com/* https://debitlens.com/:splat 301!
+
+# Redirect .app to .com
+https://debitlens.app/* https://debitlens.com/:splat 301!
