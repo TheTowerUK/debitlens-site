@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 256 256"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="DebitLens logo"
+>
+  <circle cx="118" cy="118" r="64" stroke="currentColor" stroke-width="16" opacity="0.92"/>
+  <path d="M78 102C86 80 104 66 126 62" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <path d="M86 108H150" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <path d="M86 130H142" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <path d="M86 152H134" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <path d="M164 164L206 206" stroke="currentColor" stroke-width="16" stroke-linecap="round" opacity="0.92"/>
+  <path d="M196 82L200 92L210 96L200 100L196 110L192 100L182 96L192 92L196 82Z" fill="currentColor" opacity="0.20"/>
+</svg>

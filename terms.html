@@ -4,59 +4,92 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Terms of Use — DebitLens</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-  <h1>Terms of Use</h1>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo" aria-label="DebitLens logo">
+        <svg width="26" height="26" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="118" cy="118" r="64" stroke="currentColor" stroke-width="16" opacity="0.92"/>
+          <path d="M78 102C86 80 104 66 126 62" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+          <path d="M86 108H150" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+          <path d="M86 130H142" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+          <path d="M86 152H134" stroke="currentColor" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+          <path d="M164 164L206 206" stroke="currentColor" stroke-width="16" stroke-linecap="round" opacity="0.92"/>
+          <path d="M196 82L200 92L210 96L200 100L196 110L192 100L182 96L192 92L196 82Z" fill="currentColor" opacity="0.20"/>
+        </svg>
+      </div>
+        <div class="brand-title">DebitLens</div>
+      </div>
+      <div class="nav-links">
+        <a class="pill" href="/privacy.html">Privacy</a>
+        <a class="pill" href="/terms.html">Terms</a>
+        <a class="pill" href="/support.html">Support</a>
+      </div>
+    </nav>
 
-  <p>
-    By using DebitLens, you agree to the following terms.
-  </p>
+    <section class="hero">
+      <h1>Terms of Use</h1>
+      <p>Please read these terms before using DebitLens.</p>
+    </section>
 
-  <h2>Purpose of the App</h2>
-  <p>
-    DebitLens is a personal finance tracking application intended to help users
-    understand and organise their own financial information.
-    It does not provide financial, legal, or tax advice.
-  </p>
+    <h2>Purpose of the App</h2>
+    <p>
+      DebitLens is a personal finance tracking application intended to help users
+      understand and organise their own financial information.
+      It does not provide financial, legal, or tax advice.
+    </p>
 
-  <h2>Your Data</h2>
-  <p>
-    DebitLens stores financial data locally on your device.
-    You are responsible for maintaining backups of your data where applicable.
-  </p>
+    <h2>Your Data</h2>
+    <p>
+      DebitLens stores financial data locally on your device.
+      You are responsible for maintaining backups of your data where applicable.
+    </p>
 
-  <h2>No Bank Connections</h2>
-  <p>
-    DebitLens does not connect directly to banks or financial institutions.
-    Any data entered into the app is provided manually or imported by you.
-  </p>
+    <h2>No Bank Connections</h2>
+    <p>
+      DebitLens does not connect directly to banks or financial institutions.
+      Any data entered into the app is provided manually or imported by you.
+    </p>
 
-  <h2>Availability</h2>
-  <p>
-    We aim to keep DebitLens available and functioning correctly, but we do not
-    guarantee uninterrupted access or error-free operation.
-  </p>
+    <h2>Availability</h2>
+    <p>
+      We aim to keep DebitLens available and functioning correctly, but we do not
+      guarantee uninterrupted access or error-free operation.
+    </p>
 
-  <h2>Limitation of Liability</h2>
-  <p>
-    To the maximum extent permitted by law, DebitLens and its creator shall not
-    be liable for any loss or damages arising from the use of the app.
-  </p>
+    <h2>Limitation of Liability</h2>
+    <p>
+      To the maximum extent permitted by law, DebitLens and its creator shall not
+      be liable for any loss or damages arising from the use of the app.
+    </p>
 
-  <h2>Changes</h2>
-  <p>
-    These terms may be updated from time to time. Continued use of the app
-    indicates acceptance of any updated terms.
-  </p>
+    <h2>Changes</h2>
+    <p>
+      These terms may be updated from time to time. Continued use of the app
+      indicates acceptance of any updated terms.
+    </p>
 
-  <h2>Contact</h2>
-  <p>
-    For questions about these terms, please contact us via the support page.
-  </p>
+    <h2>Contact</h2>
+    <p>
+      For questions about these terms, please contact us via the support page.
+    </p>
 
-  <p>
-    <a href="/support.html">Support</a> ·
-    <a href="/">Back to home</a>
-  </p>
+    <p>
+      <a href="/support.html">Support</a> ·
+      <a href="/">Back to home</a>
+    </p>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> DebitLens. <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="/support.html">Support</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
